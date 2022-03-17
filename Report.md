@@ -71,7 +71,7 @@ EPS_END = 0.01 #epsilon ending value
 
 ## Results
 
-The agent was trained used the hyperparameters defined above. The env was solved after 600 episodes with the following learning curve.
+The agent was trained using the hyperparameters defined above. The env was solved after 600 episodes with the following learning curve.
 
 ![result](result.png)
 
