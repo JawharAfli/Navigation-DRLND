@@ -62,8 +62,19 @@ UPDATE_EVERY = 4 #rate of network update
 ```
 
 ```python
+DEVICE = "cuda:0"
 N_EPISODES = 1400 #max episode number
 MAX_T = 1000 #max timestep/episode
 EPS_START = 1.0 #epsilon starting value
 EPS_END = 0.01 #epsilon ending value
 ```
+
+## Results
+
+The agent was trained used the hyperparameters defined above. The env was solved after 600 episodes with the following learning curve.
+
+![result](result.png)
+
+## Future work
+
+Results can be improved if we perform a hyperparameter tuning to figure out the best recipe to boost the learning curve. We can also try other algorithms or variants of DQN such as Double DQN.
